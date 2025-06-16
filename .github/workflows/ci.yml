@@ -1,7 +1,6 @@
 on: [push, pull_request]
 
 jobs:
-
   windows:
     uses: rime/librime/.github/workflows/windows-build.yml@master
     with:
